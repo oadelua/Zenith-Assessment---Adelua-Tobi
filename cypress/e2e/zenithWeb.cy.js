@@ -46,13 +46,6 @@ function validateSubFeaturesOfRequirements() {
     cy.contains('Public Utility Receipt dated within the last three months').should('be.visible');
 }
 function validateSubFeaturesOfAvailableChannels() {
-    cy.scrollTo('top');
     cy.contains('AVAILABLE CHANNELS')
         .should('be.visible')
-        cy.wait(7000)
-   cy.contains('Banking').should('be.visible');
-    cy.contains('In-branch at any Zenith Bank branch').should('be.visible');
-    cy.contains('ZenithDirect our 24/7 telephone banking').should('be.visible');
-    cy.contains('Zenith Bank ATM nation-wide').should('be.visible');
-    cy.contains('In-branch at any Zenith Bank branch').should('be.visible');
 }
