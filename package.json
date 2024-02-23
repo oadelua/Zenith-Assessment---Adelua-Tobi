@@ -1,0 +1,22 @@
+{
+  "name": "zenith-assessment---adelua-tobi",
+  "version": "1.0.0",
+  "description": "Zenith Assessment web test",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/oadelua/Zenith-Assessment---Adelua-Tobi.git"
+  },
+  "author": "Tobi Adelua",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/oadelua/Zenith-Assessment---Adelua-Tobi/issues"
+  },
+  "homepage": "https://github.com/oadelua/Zenith-Assessment---Adelua-Tobi#readme",
+  "dependencies": {
+    "cypress": "^13.6.5"
+  }
+}
